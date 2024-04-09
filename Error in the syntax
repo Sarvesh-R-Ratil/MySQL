@@ -1,0 +1,8 @@
+select  sum(population) from city
+where countrycode = 'JPN'
+
+select  sum (population) from city
+where countrycode = 'JPN' 
+it gives an error 
+it should not be sum ()
+it should sum() correct
