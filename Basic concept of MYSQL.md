@@ -109,6 +109,11 @@ In summary:
 TRUNCATE() removes the decimal part of a number without rounding.
 ROUND() rounds a number to a specified number of decimal places based on a specified rounding rule.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ROW_NUMBER() is a window function in SQL that assigns a unique sequential integer to each row in the result set based on the specified ordering. It's often used in conjunction with other window functions to perform ranking, pagination, or to generate unique identifiers for rows.
+
+OVER(): This keyword is used to define the window or set of rows that the window function operates on.
+
+PARTITION BY: This clause divides the result set into partitions or groups based on the specified column(s). The window function is then applied separately within each partition.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
