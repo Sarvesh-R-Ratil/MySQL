@@ -5,6 +5,8 @@ it means the values do not form a triangle, hence the output is 'Not A Triangle'
 ORDER BY RIGHT(Name, 3), ID: This orders the output first by the last three characters of each student's name (RIGHT(Name, 3)), 
 and then by ascending ID (ID) in case of a tie. The RIGHT function extracts the rightmost three characters of each name.
 
+LEFT(Occupation, 1)
+left most letters will be considered
 -----------------------------------------------------------------------REGEXP only availabel in MySQL----------------------------------------------------------------------------
 
 Regular expressions, often abbreviated as regex or regexp, are a powerful tool for matching patterns in strings. They provide a flexible and concise way to search, extract, and manipulate text based on patterns of characters. Regular expressions are supported in many programming languages, text editors, and database systems.
